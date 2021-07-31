@@ -1,0 +1,130 @@
+front: 
+
+
+<div class = "related" id = "header"  style = "padding-bottom: 0px;">   </div>
+
+<div class = "answer" style = "padding-top: 0px;" > {{Front}} {{tts en_US speed=1.5:Front}} </div>
+
+<span id="s1">{{Tags}}</span>
+
+<hr id=answer>
+<script>
+var content = document.getElementById("s1").innerHTML;
+var res = content.replace(/::/g, " - ")
+ document.getElementById("header").innerHTML = res;
+</script>
+
+back: 
+
+<span id="s1">{{Tags}}</span>
+
+<script>
+var content = document.getElementById("s1").innerHTML;
+var res = content.replace(/::/g, " - ")
+ document.getElementById("header").innerHTML = res;
+</script>
+
+<div class = "related" id = "header">   </div>
+
+<div class = "answer"> {{Front}} </div>
+
+
+<hr id=answer>
+
+<div class = "back"> {{Back}} {{tts en_US speed=1.5:Back}} </div> 
+
+<div class = "extras" id = 'extra'> {{Extras}} </div>
+
+
+style: 
+#s1{
+    display: none;
+    }
+    
+    .card {
+    width: 50%;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;
+    font-size: 20px;
+    padding-top: 200px;
+    text-align: left;
+    margin: auto;
+    }
+    
+    .mobile .card{
+        padding-top: 50px;
+    }
+    
+    .related{
+    font-size: 18px;
+    font-weight: bold; 
+    padding-bottom: 4px;
+    text-transform: uppercase;
+    font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;
+    
+    }
+    
+    .night_mode #header {
+    color: #B1BEC2;
+    }
+    
+    #header{
+     color: #888484;
+    
+    }
+    
+    .card .mobile.night_mode {
+    color: #B1BEC2;
+    }
+    
+    
+    .extras {
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 2;
+    font-family :ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;
+    }
+    
+    .mac #extra { 
+    color: #FBE6CF;
+    }
+    
+    .win #extra { 
+    color: #FBE6CF;
+    font-size: 18px;
+    }
+    
+    .answer{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: lightblue;
+    padding-top: 5px;
+    font-weight: bold;
+    }
+    
+    
+    .back {
+    text-transform: capitalize;
+    padding-top: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #403c3c;
+    }
+    
+    .night_mode .back{
+        color: white;
+    
+    }
+    
+    
+     .mobile .answer {
+        font-size: 25px;
+        }
+        
+       .mobile .back {
+        font-size: 15px;
+        }
+    
+    
+    /*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */
+    .mobile .card img {height:unset  !important; width:unset  !important;}
+    /*End of style added by resize image add-on*/d
