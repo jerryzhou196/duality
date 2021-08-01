@@ -14,7 +14,7 @@ Please note that this way will only add the template as a type of card - Previou
 
 
 <img style ="width:150% !important" src = "_media/CardTab.png"> 
-<img style = "width:150% !important" src = "_media/styles.png"> </p>
+<img style = "width:150% !important" src = "_media/Styles.png"> </p>
 
 <blockquote>
 <h3 align = "center" style = "color: indianred" > Card 2 Templates are <b> ONLY </b> for Basic And Reversed Card Types. <br> </h3> <p align = "center"> If you only need the template for Basic Card Types, just copy the templates and styling for card 1. </p>
