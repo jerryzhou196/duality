@@ -16,17 +16,6 @@ Please note that this way will only add the template as a type of card - Previou
 <img style ="width:150% !important" src = "_media/CardTab.png"> 
 <img style = "width:150% !important" src = "_media/Styles.png"> </p>
 
-<blockquote>
-<h3 align = "center" style = "color: indianred" > MAKE SURE TO CREATE AN ADDITIONAL FIELD CALLED <b> "Extras" </b> </h3> <p align = "center"> Watch the video below to see how. </p>
-<br>
-
-</blockquote>
-
-<p align = "center">
-<img src="_media/giphy.gif"> 
-</p>
-
-
 
 <blockquote>
 <h3 align = "center" style = "color: indianred" > Card 2 Templates are <b> ONLY </b> for Basic And Reversed Card Types. <br> </h3> <p align = "center"> If you only need the template for Basic Card Types, just copy the templates and styling for card 1. </p>
@@ -80,7 +69,6 @@ var res = content.replace(/::/g, " - ")
 
 <div class = "back"> {{Back}} {{tts en_US speed=1.5:Back}} </div> 
 
-<div class = "extras" id = 'extra'> {{Extras}} </div>
 
 ```
 
@@ -124,9 +112,6 @@ var res = content.replace(/::/g, " - ")
 
 <div class = "back"> {{Front}} 
  {{tts en_US speed=1.5:Front}} </div>
-
-<div class = "extras" id = 'extra'> {{Extras}} </div>
-
 ```
 
 ## Styling:
