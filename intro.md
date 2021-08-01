@@ -64,12 +64,9 @@ var res = content.replace(/::/g, " - ")
 
 <div class = "answer"> {{Front}} </div>
 
-
 <hr id=answer>
 
 <div class = "back"> {{Back}} {{tts en_US speed=1.5:Back}} </div> 
-
-
 ```
 
 ## Front Template (Card 2)
@@ -82,14 +79,13 @@ var res = content.replace(/::/g, " - ")
 
 <span id="s1">{{Tags}}</span>
 
-
 <hr id=answer>
+
 <script>
 var content = document.getElementById("s1").innerHTML;
 var res = content.replace(/::/g, " - ")
  document.getElementById("header").innerHTML = res;
 </script>
-
 ```
 
 ## Back Template (Card 2)
@@ -179,7 +175,6 @@ color: #38b4e4;
 padding-top: 5px;
 font-weight: bold;
 }
-
 
 
 .back {
