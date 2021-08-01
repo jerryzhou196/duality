@@ -164,13 +164,6 @@ color: #B1BEC2;
 }
 
 
-.extras {
-font-size: 14px;
-padding-top: 10px;
-line-height: 2;
-font-family :ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace!important;
-}
-
 .night_mode #extra {
 	 color: #FBE6CF;
 }
