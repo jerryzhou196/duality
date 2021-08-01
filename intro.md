@@ -17,7 +17,7 @@ Please note that this way will only add the template as a type of card - Previou
 <img style = "width:150% !important" src = "_media/Styles.png"> </p>
 
 <blockquote>
-<h3 align = "center" style = "color: indianred" > MAKE SURE TO CREATE AN ADDITIONAL FIELD CALLED <b> Extras </b> </h3> <p align = "center"> beforehand. As demonstrated below before, this MUST be done in order for the template to work.  </p>
+<h3 align = "center" style = "color: indianred" > MAKE SURE TO CREATE AN ADDITIONAL FIELD CALLED <b> "Extras" </b> </h3> <p align = "center"> Watch the video below to see how. </p>
 <br>
 
 </blockquote>
